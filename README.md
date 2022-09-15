@@ -14,15 +14,15 @@ A continuación se presenta la solución para la prueba técnica basado en produ
 
 <h1>Primeros pasos</h1>
 
-<h2>Instalar Dependencias<h2>
+<h2>Instalar Dependencias</h2>
 
 Abra una terminal el direccionelo al proyecto y ejecute el siguiente comando
   <br>
-npm i --production
+**npm i --production**
 
 Esto instalara las dependencias de producción, despues ejecute el comando
   <br>
-npm start
+**npm start**
 
 Ya estara ejecutando el servidor.
 
