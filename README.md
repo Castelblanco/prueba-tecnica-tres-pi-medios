@@ -14,7 +14,7 @@ A continuación se presenta la solución para la prueba técnica basado en produ
 
 <h1>Primeros pasos</h1>
 
-<h3>Instalar Dependencias<h3>
+<h2>Instalar Dependencias<h2>
 
 Abra una terminal el direccionelo al proyecto y ejecute el siguiente comando:
 **npm i --production**
@@ -24,7 +24,7 @@ Esto instalara las dependencias de producción, despues ejecute el comando:
 
 Ya estara ejecutando el servidor.
 
-<h3>Probar Servidor</h3>
+<h2>Probar Servidor</h2>
 
 Teniendo en cuenta que usara como servidor virtual Postman o Swagger, use la extencion Rest Client de VS Code, escriba Rest Client en el apartado de extenciones para instalarla y probar el servidor.
 
