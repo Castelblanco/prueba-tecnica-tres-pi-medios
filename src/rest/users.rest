@@ -1,0 +1,32 @@
+@api = http://localhost:3000/api/v1/users
+@user_admin = 6323575906389249600f61b4
+@user_everyone = 
+@user_everyone = 
+
+GET {{api}}
+user_id: 6322806d8944095bdf445f0d
+
+###
+GET {{api}}/1030708716
+user_id: 6322806d8944095bdf445f0d
+
+###
+POST {{api}}
+Content-Type: application/json
+user_id: {{user_admin}}
+
+{
+    "name": "Carlos",
+    "last_name": "Gardel",
+    "document": "1030708716",
+    "roles_id": ["63227fc5561735ed74255046"]
+}
+
+###
+DELETE {{api}}
+Content-Type: application/json
+user_id: {{{{user_admin}}}}
+
+{
+    "id": "63227fcc561735ed74255050"
+}

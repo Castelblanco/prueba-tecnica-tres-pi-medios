@@ -1,0 +1,9 @@
+@api = http://localhost:3000/api/v1/sales-date
+
+
+GET {{api}}/day
+user_id: 6322806d8944095bdf445f0d
+
+###
+GET {{api}}/month
+user_id: 6322806d8944095bdf445f0d

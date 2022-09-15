@@ -1,0 +1,13 @@
+@api = http://localhost:3000/api/v1/roles
+
+GET {{api}}
+user_id: 6322806d8944095bdf445f0d
+
+###
+POST {{api}}
+Content-Type: application/json
+user_id: 6322806d8944095bdf445f0d
+
+{
+    "name": "client"
+}

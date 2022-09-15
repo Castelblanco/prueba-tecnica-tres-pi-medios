@@ -1,0 +1,36 @@
+@api = http://localhost:3000/api/v1/sales
+
+GET {{api}}
+user_id: 63233aac3db621330eb58b3d
+
+###
+POST {{api}}
+Content-Type: application/json
+user_id: 63233aac3db621330eb58b3d
+
+{
+    "qty": 100,
+    "products_id": ["63227fc5561735ed74255048"],
+    "users_id": ["63233aac3db621330eb58b3d"]
+}
+
+###
+PUT {{api}}
+Content-Type: application/json
+user_id: 6322806d8944095bdf445f0d
+
+{
+    "id": "63228d30327a0027db7f79ca",
+    "qty": 50,
+    "products_id": ["63227fc3561735ed7425503f"],
+    "users_id": ["6322806d8944095bdf445f0d"]
+}
+
+###
+DELETE {{api}}
+Content-Type: application/json
+user_id: 6322806d8944095bdf445f0d
+
+{
+    "id": "63228d30327a0027db7f79ca"
+}

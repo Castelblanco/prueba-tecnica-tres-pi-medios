@@ -1,0 +1,15 @@
+@api = http://localhost:3000/api/v1/products
+
+GET {{api}}
+user_id: 63233aac3db621330eb58b3d
+
+###
+POST {{api}}
+Content-Type: application/json
+user_id: 6322806d8944095bdf445f0d
+
+{
+    "name": "Aceite",
+    "description": "Litro",
+    "price": "17000"
+}
